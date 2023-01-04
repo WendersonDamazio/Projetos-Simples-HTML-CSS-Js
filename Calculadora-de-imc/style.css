@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lawngreen;
+    width: 500px;
+    height: 500px;
+}
+input{
+    width: 200px;  
+    padding: 10px; 
+    font-size: 20px;
+    margin: 5px;
+    border-radius: 4px;
+}
+button{
+    padding: 10px;
+    width: 150px;
+    margin-top: 10px;
+}
