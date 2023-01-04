@@ -1,6 +1,6 @@
 function calcular(){
-    var text = document.getElementById("textearea").value;
+    var text = document.getElementById("textarea").value;
     var result = text.split(" ").length;
 
-    document.getElementById("resultado").innerHTML = "Voce tem: " + result + "palavras";
+    document.getElementById("resultado").innerHTML = "Voce tem: " + result + " palavras";
 }
